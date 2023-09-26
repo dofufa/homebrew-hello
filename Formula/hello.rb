@@ -3,7 +3,7 @@ class Hello < Formula
   homepage "https://test.dofufa.com/"
   url "https://github.com/dofufa/homebrew-hello/archive/v1.tar.gz"
   sha256 ""
-  head "https://github.com/dofufa/homebrew-hello.git"
+  head "https://github.com/dofufa/homebrew-hello.git", branch: "main"
   license "MIT"
   revision 1
 
