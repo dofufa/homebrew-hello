@@ -3,21 +3,21 @@ hello world homebrew repo
 
 # INSTALL
 
-Install [Homebrew](https://brew.sh).
+1. Install [Homebrew](https://brew.sh).
 
-Add this repo as a brew tap:
+2. Add this repo as a brew tap:
 
 ```bash
 brew tap dofufa/hello
 ```
 
-Install this formula:
+3 Install this formula:
 
 ```bash
 brew install dofufa/hello/hello
 ```
 
-OR, for the latest commit:
++ OR, for the latest commit:
 ```bash
 brew install --head dofufa/hello/hello
 ```
