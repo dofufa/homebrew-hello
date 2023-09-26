@@ -16,7 +16,7 @@ brew tap dofufa/hello
 brew install dofufa/hello/hello
 ```
 
-OR, the latest:
+OR, for the latest commit:
 ```bash
 brew install --head dofufa/hello/hello
 ```
