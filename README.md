@@ -1,6 +1,9 @@
 # homebrew-hello
 hello world homebrew repo
 
+# REQUIREMENTS
+  + `PHP 7.4+` or `PHP 8.0+' 
+
 # INSTALL
 
 1. Install [Homebrew](https://brew.sh).
