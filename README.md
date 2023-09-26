@@ -2,7 +2,7 @@
 hello world homebrew repo
 
 # REQUIREMENTS
-  + `PHP 7.4+` or `PHP 8.0+' 
+  + `PHP 7.4+` or `PHP 8.0+` 
 
 # INSTALL
 
