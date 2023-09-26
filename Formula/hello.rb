@@ -7,7 +7,7 @@ class Hello < Formula
   license "MIT"
   revision 1
 
-  depends_on "php"
+  depends_on "php@7.4"
 
   def install
     ohai "DOFUFA: *drumroll* ... installing dofufa-hello ";
