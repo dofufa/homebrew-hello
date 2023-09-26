@@ -18,6 +18,8 @@ brew install dofufa/hello/hello
 ```
 
 + OR, for the latest commit:
++ OR, if you have no releases yet:
+
 ```bash
 brew install --head dofufa/hello/hello
 ```
