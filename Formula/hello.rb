@@ -1,7 +1,7 @@
 class Hello < Formula
   desc "Test repo: hello world."
   homepage "https://test.dofufa.com/"
-  url "https://github.com/dofufa/homebrew-hello/archive/v1.tar.gz"
+  url "https://github.com/dofufa/homebrew-hello/archive/v2.tar.gz"
   sha256 "a0bfba64f97bfbeee4f62bf06c22bad45872a3dc44a0e0486a9e087584cc9dec"
   head "https://github.com/dofufa/homebrew-hello.git", branch: "main"
   license "MIT"
