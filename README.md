@@ -11,7 +11,7 @@ hello world homebrew repo
 brew tap dofufa/hello
 ```
 
-3 Install this formula:
+3. Install this formula:
 
 ```bash
 brew install dofufa/hello/hello
