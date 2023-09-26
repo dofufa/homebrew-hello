@@ -1,3 +1,3 @@
-#!/bin/php
+#!/usr/bin/php
 <?php
 echo 'hello, world' . PHP_EOL;
