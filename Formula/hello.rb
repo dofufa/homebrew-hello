@@ -9,9 +9,19 @@ class Hello < Formula
 
   ## new DSL for dependency detection 
   ## learn more: https://brew.sh/2019/11/27/homebrew-2.2.0/
-  uses_from_macos "php"
+  ## uses_from_macos "php"
 
-  system("which", "php")
+  ## alternative to 'uses_from_macos'
+  ## homebrew formula detecting php in linux environment
+  has_php = `which php`
+  if has_php.empty?
+  	p 'DOFUFA: we need php'
+	  depends_on 'php'
+  else
+	  p 'DOFUFA: php already installed'
+	  system('php -v')
+  end
+
   
   def install
     ohai "DOFUFA: *drumroll* ... installing dofufa-hello ";
