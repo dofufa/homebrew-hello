@@ -11,6 +11,8 @@ class Hello < Formula
   ## learn more: https://brew.sh/2019/11/27/homebrew-2.2.0/
   uses_from_macos "php"
 
+  system("which", "php")
+  
   def install
     ohai "DOFUFA: *drumroll* ... installing dofufa-hello ";
     bin.install "bin/hello.php" => "dofufa-hello"
