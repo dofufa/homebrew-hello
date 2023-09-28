@@ -15,13 +15,12 @@ class Hello < Formula
   ## homebrew formula detecting php in linux environment
   has_php = `which php`
   if has_php.empty?
-    ohai 'DOFUFA: we need php'
-    depends_on 'php'
+    ohai "DOFUFA: we need php"
+    depends_on "php"
   else
-    ohai 'DOFUFA: php already installed'
-    system('php -v')
+    ohai "DOFUFA: php already installed"
+    system("php -v")
   end
-
   
   def install
     ohai "DOFUFA: *drumroll* ... installing dofufa-hello ";
