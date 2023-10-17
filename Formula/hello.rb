@@ -13,13 +13,13 @@ class Hello < Formula
 
   ## alternative to 'uses_from_macos'
   ## homebrew formula detecting php in linux environment
-  has_php = system("type php >/dev/null 2>&1")
+  has_php = system "type php >/dev/null 2>&1"
   if !has_php
     ohai "DOFUFA: we need php"
     depends_on "php"
   else
     ohai "DOFUFA: php already installed"
-    system("php -v")
+    system "php -v"
   end
   
   def install
